@@ -12,11 +12,11 @@ const palindrome = () => {
 
     if (reversed === alphaNemuricOnly) {
         outPutEl.innerHTML = `Yeah, It's a palindrome`
-        outPutEl.classList.toggle('success');
+        outPutEl.classList.add('success');
         outPutEl.classList.remove('error');
     } else {
         outPutEl.innerHTML = `Not a palindrome`
-        outPutEl.classList.toggle('error');
+        outPutEl.classList.add('error');
         outPutEl.classList.remove('success');
     }
 }
